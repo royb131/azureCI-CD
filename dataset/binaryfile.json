@@ -1,0 +1,19 @@
+{
+	"name": "binaryfile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blobcontainer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "test.csv",
+				"container": "client"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
